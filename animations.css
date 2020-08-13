@@ -1,9 +1,44 @@
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
+@keyframes fire {
+    0% {
+        /*red*/
+        background-color: #FF0000;
+    }
+    25% {
+        /*orange-ish*/
+        background-color: #FF5500;
+    }
+    50% {
+        /*yellow-ish*/
+        background-color: #FFC400;
+    }
+    75% {
+        /*bright-neony-yellow*/
+        background-color: #EEFF00;
+    }
 }
+.fire {
+    color: white;
+    animation-name: fire;
+    /*fire background displayed colors*/
+}
+.snail {
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.slow {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.medium {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.fast {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.speedy {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
